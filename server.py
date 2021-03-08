@@ -7,111 +7,73 @@ import click
 from contextlib import closing
 import json
 import os
+from project_chat.server.serializer import Serializer
+from project_chat.server.server_socket import ServerSocket
+from project_chat.server.server import Server
+import project_chat.server.server_log_config
 
-def code(code):
-    with open(os.path.join(os.getcwd(), 'code.json'), encoding='utf-8') as f:
-        msg = json.load(f)
-        msg = msg[code]
-    return json.dumps(msg)
+import logging
 
+logger = logging.getLogger('server')
 
-def server_data():
-    data = {
-
-        "response": 200,
-        "alert": "Сообщение принято"
-    }
-    return json.dumps(data)
-
-
-def quit():
-    data = {
-        "action": "quit"
-    }
-    return json.dumps(data)
-
-
-def convert(data):
-    recv_str = data.decode('utf-8')
-    recv_msg = json.loads(recv_str)
-    return recv_msg
-
-#os.path.join(os.getcwd(), 'auth.json')
-def open_auth(url):
-    with open(url) as f:
-        auth = json.load(f)
-        return auth
-
-ENCODING = 'utf-8'
-
-def authenticate(recv_msg, data_auth):
-    if 'action' in recv_msg and recv_msg['action'] == "authenticate":
-
-        for id in data_auth:
-            print(recv_msg)
-            if data_auth[id]["account_name"] == recv_msg['user']["account_name"] and data_auth[id]["password"] == \
-                    recv_msg['user']["password"]:
-
-                return '200'
-
-        return '402'
-
-    return '403'
-
-
+LIMIT_BYTE = 640
 
 @click.command()
 @click.option('--a', default='', help='ip')
 @click.option('--p', default=7777, help='port')
-def server_message(a, p):
+def main(a, p):
     with socket(AF_INET, SOCK_STREAM) as s:  # Создает сокет TCP
         s.bind((a, p))  # Присваивает порт 8800
         s.listen(5)  # Переходит в режим ожидания запросов;
-        # одновременно обслуживает не более
-        # 5 запросов.
+                        # одновременно обслуживает не более
+                        # 5 запросов.
         while True:
             client, addr = s.accept()  # Принять запрос на соединение
+            logger.info("connect server")
             with closing(client) as cl:
+                client_server = ServerSocket(cl)
+                server = Server(client_server, Serializer()) # объект сервер
                 while True:
-                    data = cl.recv(640)
-                    recv_message = convert(data)
+                    data = cl.recv(LIMIT_BYTE)
+
+                    code = Serializer().serialize_server_authenticate_code(data) # получаем код аунтификации
+                    recv_message = Serializer().serializer_client(data) # получаем сообщение от клиента
+                    logger.debug(f"Аунтификация")
                     print('Сообщение: ', recv_message, ', было отправлено клиентом: ', addr, 'количество байтов', len(data))
-                    recv_msg = json.loads(data)
-                    url = os.path.join(os.getcwd(), 'auth.json')
-                    data_auth = open_auth(url)
-                    auth = authenticate(recv_msg, data_auth)
 
-                    if auth == '200':
-                        msg = code('200')  # это сообщение не идет к клиенту, после второй аунтификации
-                        #print(msg.encode(ENCODING))
-                        cl.send(msg.encode(ENCODING))  # во второй раз не отправляет сообщение
+
+                    if code == '200':
+                        server.authenticate(data)  # оправляем собщение аунтификации клиенту
+                        logger.debug(f"Пользователь {recv_message['user']['account_name']} авторизовался")
+
                         while True:
-                            data = cl.recv(640)
-                            recv_message = convert(data)
-                            #print(type(recv_message))
-                            #print(recv_message)
-
+                            data = cl.recv(LIMIT_BYTE)
+                            recv_message = Serializer().serializer_client(data) # получаем сообщение от клиента
+                            logger.debug(f"Сообщение от клиента получено")
                             print('Сообщение: ', recv_message, ', было отправлено клиентом: ', addr, 'количество байтов', len(data))
-                            massage = server_data()
-                            #print(recv_message)
+
                             if recv_message['message'] == 'quit':
-                                #print(recv_message['message'])
-                                massage = quit()
-                                cl.send(massage.encode(ENCODING))
+                                server.message(data) # оправляем собщение клиенту
+                                logger.debug(f"Сообщаем о выходе пользователя")
                                 break
+
                             else:
-                                cl.send(massage.encode(ENCODING))
+                                server.message(data)  # оправляем собщение клиенту
+                                logger.debug(f"Ответ клиенту от сервера")
 
-                    elif auth == '402':
-                        msg = code('402')
-                        cl.send(msg.encode(ENCODING))
 
-                    elif auth == '403':
-                        msg = code('403')
-                        cl.send(msg.encode(ENCODING))
+                    elif code == '402':
+
+                        server.authenticate(data)  # оправляем собщение аунтификации клиенту
+                        logger.debug(f"Неверный пароль или имя пользователя")
+
+                    elif code == '403':
+
+                        server.authenticate(data)  # оправляем собщение аунтификации клиенту
+                        logger.debug(f"Неверно введены данные")
 
 
 
 
 if __name__ == '__main__':
-    server_message()
+    main()

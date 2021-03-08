@@ -5,10 +5,17 @@ from .message import Authenticate, Message
 
 
 class Serializer:
-    def __init__(self, dumps=json.dumps, encoding="utf-8", get_time_fn=time.time):
+    def __init__(self, dumps=json.dumps, loads=json.loads, encoding="utf-8", get_time_fn=time.time):
         self._dumps = dumps
         self._encoding = encoding
         self._get_time_fn = get_time_fn
+        self.loads = loads
+        self._LIMIT_BYTE = 640
+
+    def limit_byte(self, byte_str):
+        while len(byte_str) < self._LIMIT_BYTE:
+            byte_str += b' '
+        return byte_str
 
     def serialize_authenticate(self, msg):
         if isinstance(msg, Authenticate):
@@ -19,9 +26,8 @@ class Serializer:
             }
             result_str = self._dumps(result_dict)
             res = result_str.encode(self._encoding)
-            while len(res) < 640:
-                res += b' '
-            return res # Строка в байтах
+
+            return self.limit_byte(res) # Строка в байтах
 
     def serializer_message(self, msg):
         if isinstance(msg, Message):
@@ -35,26 +41,16 @@ class Serializer:
 
             result_str = self._dumps(result_dict)
             res = result_str.encode(self._encoding)
-            while len(res) < 640:
-                res += b' '
-            return res # Строка в байтах
 
+            return self.limit_byte(res) # Строка в байтах
 
-class SerializerServer:
-    def __init__(self, byte_string, loads=json.loads, encoding="utf-8"):
-        self._loads = loads
-        self._encoding = encoding
-        self.byte_string = byte_string
-
-    @property
-    def serializer_code(self):
-        revc_str = self.byte_string.decode(self._encoding)
-        data = self._loads(revc_str)
+    def serializer_code(self, byte_string):
+        revc_str = byte_string.decode(self._encoding)
+        data = self.loads(revc_str)
 
         return data # словарь сообщения от сервера
 
-    @property
-    def serializer_code_authenticate(self): # код аунтификации
+    def serializer_code_authenticate(self, byte_string): # код аунтификации
         #print(self.serializer_code)
-        return self.serializer_code['response']
+        return self.serializer_code(byte_string)['response']
 
