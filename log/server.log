@@ -1,51 +1,354 @@
-2021-03-08 23:08:53,445 - DEBUG - server - Аунтификация 
-2021-03-08 23:08:53,447 - DEBUG - server - Неверный пароль или имя пользователя 
-2021-03-08 23:09:41,304 - INFO - server - connect server 
-2021-03-08 23:09:42,875 - DEBUG - server - Аунтификация 
-2021-03-08 23:09:42,877 - DEBUG - server - Неверный пароль или имя пользователя 
-2021-03-08 23:09:44,196 - DEBUG - server - Аунтификация 
-2021-03-08 23:09:44,197 - DEBUG - server - Неверный пароль или имя пользователя 
-2021-03-08 23:09:45,596 - DEBUG - server - Аунтификация 
-2021-03-08 23:09:45,597 - DEBUG - server - Неверный пароль или имя пользователя 
-2021-03-08 23:09:46,932 - DEBUG - server - Аунтификация 
-2021-03-08 23:09:46,933 - DEBUG - server - Неверный пароль или имя пользователя 
-2021-03-08 23:12:15,881 - INFO - server - connect server 
-2021-03-08 23:12:20,971 - DEBUG - server - Аунтификация 
-2021-03-08 23:12:20,972 - DEBUG - server - Пользователь igor авторизовался 
-2021-03-08 23:12:22,067 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:12:22,067 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:12:22,884 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:12:22,884 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:12:23,875 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:12:23,875 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:14:11,358 - INFO - server - connect server 
-2021-03-08 23:14:15,811 - DEBUG - server - Аунтификация 
-2021-03-08 23:14:15,812 - DEBUG - server - Пользователь igor авторизовался 
-2021-03-08 23:14:16,747 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:14:16,747 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:14:17,450 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:14:17,451 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:14:18,299 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:14:18,299 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:15:11,038 - INFO - server - connect server 
-2021-03-08 23:15:14,539 - DEBUG - server - Аунтификация 
-2021-03-08 23:15:14,540 - DEBUG - server - Пользователь igor авторизовался 
-2021-03-08 23:15:16,283 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:15:16,284 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:15:17,275 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:15:17,276 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:15:18,123 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:15:18,124 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:15:18,795 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:15:18,795 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:16:45,623 - INFO - server - connect server 
-2021-03-08 23:16:50,018 - DEBUG - server - Аунтификация 
-2021-03-08 23:16:50,019 - DEBUG - server - Пользователь igor авторизовался 
-2021-03-08 23:16:50,867 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:16:50,868 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:16:51,299 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:16:51,299 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:16:51,483 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:16:51,483 - DEBUG - server - Ответ клиенту от сервера 
-2021-03-08 23:16:51,643 - DEBUG - server - Сообщение от клиента получено 
-2021-03-08 23:16:51,643 - DEBUG - server - Ответ клиенту от сервера 
+2021-03-13 22:46:09,044 - INFO - server - connect server 
+2021-03-13 22:47:21,777 - INFO - server - connect server 
+2021-03-13 22:47:34,564 - INFO - server - connect server 
+2021-03-13 22:48:23,475 - INFO - server - connect server 
+2021-03-13 22:48:50,481 - INFO - server - connect server 
+2021-03-13 22:52:04,920 - INFO - server - connect server 
+2021-03-13 22:52:10,682 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции main 
+2021-03-13 22:52:10,683 - DEBUG - decor_log_server - Аунтификация. вызвана из функции main 
+2021-03-13 22:52:16,139 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции main 
+2021-03-13 22:52:16,141 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции main  
+2021-03-13 22:52:16,158 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-13 22:52:16,716 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции main 
+2021-03-13 22:52:16,718 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции main  
+2021-03-13 22:52:16,720 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-13 22:52:17,365 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции main 
+2021-03-13 22:52:17,367 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции main  
+2021-03-13 22:52:17,369 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-13 22:52:23,244 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции main 
+2021-03-13 22:52:23,245 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции main  
+2021-03-13 22:52:23,247 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-13 22:52:25,802 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции main 
+2021-03-13 22:52:25,805 - DEBUG - decor_log_server - Аунтификация. вызвана из функции main 
+2021-03-13 22:53:59,889 - INFO - server - connect server 
+2021-03-13 22:55:24,436 - INFO - server - connect server 
+2021-03-13 22:58:18,112 - INFO - server - connect server 
+2021-03-13 22:58:30,557 - INFO - server - connect server 
+2021-03-13 22:59:27,828 - INFO - server - connect server 
+2021-03-13 23:00:14,774 - INFO - server - connect server 
+2021-03-13 23:04:22,399 - INFO - server - connect server 
+2021-03-13 23:05:43,307 - INFO - server - connect server 
+2021-03-13 23:07:11,460 - INFO - server - connect server 
+2021-03-13 23:07:45,389 - INFO - server - connect server 
+2021-03-13 23:09:45,018 - INFO - server - connect server 
+2021-03-13 23:11:10,234 - INFO - server - connect server 
+2021-03-13 23:19:18,879 - INFO - server - connect server 
+2021-03-13 23:19:22,915 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:19:22,916 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:21:59,317 - INFO - server - connect server 
+2021-03-13 23:22:00,873 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:00,875 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:22:02,771 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:02,773 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:22:10,372 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:10,374 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:22:26,837 - INFO - server - connect server 
+2021-03-13 23:22:32,612 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:32,614 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:22:34,108 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:34,110 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:22:38,197 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:38,198 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:22:39,451 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:39,453 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:22:42,124 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:42,127 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:22:43,131 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:22:43,133 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:23:05,218 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:23:05,220 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:23:23,611 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:23:23,613 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:23:58,460 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:23:58,462 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:24:05,044 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:24:05,046 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:32:26,131 - INFO - server - connect server 
+2021-03-13 23:32:32,625 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:32:32,627 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:34:29,971 - INFO - server - connect server 
+2021-03-13 23:34:35,640 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:34:35,641 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:36:40,090 - INFO - server - connect server 
+2021-03-13 23:36:43,368 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:36:43,369 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:37:39,236 - INFO - server - connect server 
+2021-03-13 23:37:44,774 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:37:44,776 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:37:44,778 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-13 23:38:29,289 - INFO - server - connect server 
+2021-03-13 23:38:34,136 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:38:34,138 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:38:41,740 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:38:41,742 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:38:41,745 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-13 23:39:33,587 - INFO - server - connect server 
+2021-03-13 23:39:38,297 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:39:38,299 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:43:14,224 - INFO - server - connect server 
+2021-03-13 23:43:15,367 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:43:15,368 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:43:16,653 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:43:16,655 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:43:20,531 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:43:20,533 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:47:52,502 - INFO - server - connect server 
+2021-03-13 23:47:58,664 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:47:58,665 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:48:29,018 - INFO - server - connect server 
+2021-03-13 23:48:32,279 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:48:32,281 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:54:03,854 - INFO - server - connect server 
+2021-03-13 23:54:05,505 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:54:05,507 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:54:07,229 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:54:07,230 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-13 23:54:08,740 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-13 23:54:08,742 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:06:04,917 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:06:04,919 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:12:03,674 - INFO - server - connect server 
+2021-03-14 00:12:09,422 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:12:09,424 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:13:07,652 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:13:07,655 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:13:20,775 - INFO - server - connect server 
+2021-03-14 00:13:23,744 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:13:23,746 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:19:12,679 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:19:12,681 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:19:15,853 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:19:15,855 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:19:22,134 - INFO - server - connect server 
+2021-03-14 00:19:26,768 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:19:26,770 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:22:18,054 - INFO - server - connect server 
+2021-03-14 00:22:20,913 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:22:20,914 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:25:17,441 - INFO - server - connect server 
+2021-03-14 00:25:23,184 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:25:23,186 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:25:47,421 - INFO - server - connect server 
+2021-03-14 00:25:50,903 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:25:50,905 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:27:02,153 - INFO - server - connect server 
+2021-03-14 00:27:05,032 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:27:05,034 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:27:20,181 - INFO - server - connect server 
+2021-03-14 00:27:23,160 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:27:23,162 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:34:14,014 - INFO - server - connect server 
+2021-03-14 00:34:17,631 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:34:17,634 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:38:00,543 - INFO - server - connect server 
+2021-03-14 00:38:03,593 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:38:03,595 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:38:04,918 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:38:04,920 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:38:04,989 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:38:37,206 - INFO - server - connect server 
+2021-03-14 00:38:40,337 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:38:40,339 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:38:41,613 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:38:41,615 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:38:41,617 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:38:42,350 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:38:42,353 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:38:42,356 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:38:43,141 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:38:43,143 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:38:43,146 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:38:43,934 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:38:43,936 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:38:43,939 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:38:44,614 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:38:44,616 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:38:44,619 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:38:46,814 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:38:46,817 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:38:46,820 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:39:39,742 - INFO - server - connect server 
+2021-03-14 00:39:42,404 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:39:42,406 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:39:43,708 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:39:43,710 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:39:44,964 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:39:44,966 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:39:51,110 - INFO - server - connect server 
+2021-03-14 00:39:52,565 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:39:52,567 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:39:53,814 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:39:53,816 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:39:56,349 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:39:56,350 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:40:03,764 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:40:03,766 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:40:04,845 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:40:04,847 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:40:04,850 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:40:05,436 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:40:05,439 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:40:05,441 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:41:21,868 - INFO - server - connect server 
+2021-03-14 00:41:25,127 - INFO - server - connect server 
+2021-03-14 00:41:27,216 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:27,218 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:28,053 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:28,055 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:28,542 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:28,543 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:28,868 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:28,870 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:29,141 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:29,143 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:29,390 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:29,392 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:29,894 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:29,895 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:30,189 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:30,190 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:30,454 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:30,456 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:32,278 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:32,279 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:32,646 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:32,648 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:32,981 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:32,983 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:33,268 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:33,270 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:33,541 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:33,543 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:34,269 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:34,271 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:34,709 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:34,711 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:35,989 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:35,991 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:41:39,221 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:41:39,223 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:42:27,206 - INFO - server - connect server 
+2021-03-14 00:42:29,701 - INFO - server - connect server 
+2021-03-14 00:42:31,552 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:42:31,553 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:42:36,581 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 00:42:36,583 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 00:42:37,141 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:37,143 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:37,146 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:37,502 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:37,504 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:37,507 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:37,790 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:37,792 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:37,794 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:37,966 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:37,968 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:37,971 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:38,133 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:38,136 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:38,139 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:38,278 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:38,281 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:38,284 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:38,399 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:38,402 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:38,405 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:38,534 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:38,537 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:38,540 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:38,663 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:38,666 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:38,669 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:38,800 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:38,803 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:38,807 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:38,911 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:38,915 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:38,919 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:39,023 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:39,027 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:39,031 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:39,151 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:39,155 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:39,159 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:39,272 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:39,276 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:39,280 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 00:42:39,383 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 00:42:39,387 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 00:42:39,392 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:30:46,642 - INFO - server - connect server 
+2021-03-14 12:30:48,536 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:30:48,538 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:30:50,085 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:30:50,087 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:30:51,294 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:30:51,296 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:30:54,197 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:30:54,199 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:31:02,061 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:31:02,063 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:31:05,000 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:31:05,004 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:31:05,032 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:31:05,663 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:31:05,665 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:31:05,667 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:31:06,566 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:31:06,569 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:31:06,571 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:31:07,695 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:31:07,702 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:31:07,705 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:32:34,040 - INFO - server - connect server 
+2021-03-14 12:32:38,035 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:32:38,037 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:32:43,261 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:32:43,263 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:33:24,679 - INFO - server - connect server 
+2021-03-14 12:33:46,370 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:33:46,372 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:35:01,082 - INFO - server - connect server 
+2021-03-14 12:35:06,185 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:35:06,187 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:35:07,702 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:35:07,705 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:35:07,707 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:35:08,374 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:35:08,377 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:35:08,379 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:35:09,055 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:35:09,057 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:35:09,060 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:35:09,759 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:35:09,761 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:35:09,764 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:35:10,502 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:35:10,505 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:35:10,508 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:36:42,520 - INFO - server - connect server 
+2021-03-14 12:36:45,462 - INFO - server - connect server 
+2021-03-14 12:36:49,433 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:36:49,436 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:42:38,705 - INFO - server - connect server 
+2021-03-14 12:42:42,226 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:42:42,228 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:43:13,678 - INFO - server - connect server 
+2021-03-14 12:43:17,545 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read 
+2021-03-14 12:43:17,548 - DEBUG - decor_log_server - Аунтификация. вызвана из функции read 
+2021-03-14 12:43:18,593 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:43:18,595 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:43:18,597 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:43:19,295 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:43:19,297 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:43:19,299 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:43:19,999 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:43:20,001 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:43:20,004 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:43:20,736 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:43:20,738 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:43:20,741 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 
+2021-03-14 12:43:21,448 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции read_msg 
+2021-03-14 12:43:21,451 - DEBUG - decor_log_server - Ответ клиенту от сервера. вызвана из функции read_msg  
+2021-03-14 12:43:21,454 - DEBUG - decor_log_server - Сообщение от клиента. вызвана из функции serializer_server_message 

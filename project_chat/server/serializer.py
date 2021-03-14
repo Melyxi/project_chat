@@ -1,5 +1,9 @@
 import json
 import os
+from .decor_log_server import log_client, log_msg
+
+
+
 
 
 class Serializer:
@@ -12,11 +16,13 @@ class Serializer:
         self.path_auth = os.path.join(os.getcwd(), 'project_chat\\server\\db\\auth.json')
         self.path_code = os.path.join(os.getcwd(), 'project_chat\\server\\db\\code.json')
         self._LIMIT_BYTE = 640
+        self.code = ' '
 
     def limit_byte(self, byte_str):
         while len(byte_str) < self._LIMIT_BYTE:
             byte_str += b' '
         return byte_str
+
 
     def serialize_server_authenticate_code(self, byte_string):  # проверка аунтификации
         with open(self.path_auth, encoding=self.encoding) as f:
@@ -42,12 +48,15 @@ class Serializer:
         result_str = self._dumps(msg[code])
         res = result_str.encode(self.encoding)
 
+        print(self.code, "code")
         return self.limit_byte(res)  # байты
 
+    @log_client
     def serializer_client(self, data):
         recv_str = data.decode(self.encoding)
         recv_msg = self._loads(recv_str)
         return recv_msg  # словарь сообщения от клиента
+
 
     def serializer_server_message(self, data):
         client_msg = self.serializer_client(data)

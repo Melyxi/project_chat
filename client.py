@@ -25,12 +25,9 @@ def main(add, port):
             password = input("Введите пароль: ")
             client.authenticate(password)  # проходим аунтификацию вводим пароль
 
-            try:
-                data = s.recv(LIMIT_BYTE)
-                dict_server = Serializer().serializer_code(data)
-                logger.debug(f'Сообщение от сервера {dict_server}')
-            except BaseException as e:
-                logger.exception(f"Error! {e}")
+            data = s.recv(LIMIT_BYTE)
+            print('data')
+            dict_server = Serializer().serializer_code(data)
 
             code = Serializer().serializer_code_authenticate(data)
             print('Сообщение от сервера: ', dict_server, ', длиной ', len(data), ' байт')
@@ -39,18 +36,12 @@ def main(add, port):
                 logger.info(f"connect client {account_name}")
                 msg = input("Введите сообщение: ")
                 to_user = "#room"
-                try:
-                    client.message(msg=msg, to_user=to_user)  # вводим сообщение
-                    logger.debug(f"Сообщение отправлено, пользователем: {account_name}, кому: {to_user}")
-                except BaseException as e:
-                    logger.exception(f"Сообщение не отправлено")
+
+                client.message(msg=msg, to_user=to_user)  # вводим сообщение
+
                 data = s.recv(LIMIT_BYTE)
 
-                try:
-                    dict_server = Serializer().serializer_code(data)
-                    logger.debug(f'Сообщение от сервера {dict_server}')
-                except BaseException as e:
-                    logger.exception(f"Error! {e}")
+                dict_server = Serializer().serializer_code(data)
 
                 print('Сообщение от сервера: ', dict_server, ', длиной ', len(data), ' байт')
 
